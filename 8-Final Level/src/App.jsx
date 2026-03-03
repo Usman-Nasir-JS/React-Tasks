@@ -10,6 +10,7 @@ import Sidebar from "./components/Sidebar";
 import Navbar from "./components/Navbar";
 import './App.css'
 
+
 function App() {
 
   const { isLogin } = useContext(AuthContext);
@@ -21,19 +22,24 @@ function App() {
       <h1 className="text-3xl font-bold underline text-center py-5 mb-5 bg-blue-700 mask-b-from-neutral-700">Final Mega Project</h1>
 
       <Navbar />
+
       <div className="flex">
         <Sidebar />
 
         <div className="p-5 w-full">
+      
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/users" element={<Users />} />
             <Route path="/products" element={<Products />} />
           </Routes>
+      
         </div>
+      
       </div>
     </>
   )
+
 }
 
 export default App

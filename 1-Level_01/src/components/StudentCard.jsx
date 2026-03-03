@@ -32,7 +32,9 @@ function StudentCard() {
 
             {/* CARDS */}
             <div className="flex flex-wrap justify-center mt-7 sm:mt-5">
+                
                 {usersObj.map((onlyObj, index) => (
+
                     <div key={index}
                         className={`m-2 p-3 border-2 rounded w-64 ${
                             darkMode ? "bg-gray-800 border-gray-600" : "bg-gray-100"
@@ -44,6 +46,7 @@ function StudentCard() {
                         <p>Favorite Language: {onlyObj.favoriteLanguage}</p>
                     </div>
                 ))}
+
             </div>
 
         </div>

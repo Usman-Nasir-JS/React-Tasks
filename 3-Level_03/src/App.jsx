@@ -6,6 +6,7 @@ import Main from "./components/Main";
 import Footer from "./components/Footer";
 import ProductCard from './components/ProductCard';
 
+
 function App() {
 
   const products = [
@@ -70,6 +71,7 @@ function App() {
 
     </>
   )
+
 }
 
 export default App

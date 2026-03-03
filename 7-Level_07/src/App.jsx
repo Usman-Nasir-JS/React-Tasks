@@ -10,7 +10,9 @@ function App() {
       <h1 className="text-3xl font-bold underline text-center py-5 mb-5 bg-blue-700 mask-b-from-neutral-700">Level 7 – Styling</h1>
 
       <TailwindCard />
+
       <MuiCard />
+      
       <StyledCard />
     </>
   )

@@ -10,6 +10,7 @@ function TodoApp() {
         if (data.trim() === "") return;
 
             setTodos([...todos, { id: Date.now(), text: data, status: "pending" }]);
+            
             setData("");
 
         };
